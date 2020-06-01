@@ -1,0 +1,17 @@
+@import '../../sass/abstracts/variables';
+
+.header {
+  background-color: rgba($color: $color-primary-light, $alpha: 1);
+}
+
+.heading {
+  padding: 0.5rem;
+  display: inline-block;
+  background-color: rgba($color: $color-primary-light, $alpha: 1);
+
+  &__logo {
+    padding-left: 1rem;
+    font-weight: 300;
+    font-size: 3rem;
+  }
+}
