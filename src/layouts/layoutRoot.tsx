@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Helmet } from 'react-helmet'
-import Header from './header/header'
-import Footer from './footer'
+import Header from '../components/header/header'
+import Footer from '../components/footer/footer'
 
 const LayoutRoot: FC = ({ children }) => (
   <>

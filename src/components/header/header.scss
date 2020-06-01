@@ -2,16 +2,19 @@
 
 .header {
   background-color: rgba($color: $color-primary-light, $alpha: 1);
+  height: 8vh;
 }
 
 .heading {
   padding: 0.5rem;
   display: inline-block;
-  background-color: rgba($color: $color-primary-light, $alpha: 1);
 
   &__logo {
     padding-left: 1rem;
     font-weight: 300;
     font-size: 3rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    white-space: nowrap;
   }
 }
