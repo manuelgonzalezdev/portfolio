@@ -8,14 +8,30 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@types/react-helmet": "^5.0.15",
     "gatsby": "^2.21.11",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-plugin-typescript": "^2.4.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.5"
   }
 }
